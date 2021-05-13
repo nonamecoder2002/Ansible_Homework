@@ -1,0 +1,7 @@
+---
+- name: Create file in /etc
+  shell: touch /etc/iaas && chmod 0500 /etc/iaas
+
+- name: Print out message 
+  debug:
+    msg: File created & configured!
