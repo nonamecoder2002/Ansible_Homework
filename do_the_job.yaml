@@ -3,10 +3,10 @@
   connection: local
   become: root
   roles:
-    - "roles/touch_config"
+    - touch_config
 
 - hosts: all
   connection: local
   become: root
   roles:
-    - "roles/fetch_data"
+    - fetch_data
